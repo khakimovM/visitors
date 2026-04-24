@@ -11,7 +11,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { format, subDays } from 'date-fns';
 import { ExportDropdown } from '@/components/ExportDropdown';
-import { useCreateDevice } from '@/hooks/useTrafficAPI';
+import { useCreateDevice } from '@/hooks/useTrafficApi';
 import { useBranches, useDayStatistics, useTodayBranches, useVisitorsData } from '@/hooks/useAnalyticsApi';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Button } from '@/components/ui/button';
